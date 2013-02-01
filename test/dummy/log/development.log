@@ -1,0 +1,282 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:25:40 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (956.6ms)
+Completed 500 Internal Server Error in 993ms
+
+ActionView::Template::Error (Sorry, that page does not exist):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___3197835862385236747_20892060'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:26:22 +0100
+Processing by TestController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+RuntimeError (DD):
+  app/controllers/test_controller.rb:3:in `index'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:26:34 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.4ms)
+Compiled application.css  (0ms)  (pid 28808)
+Compiled jquery.js  (31ms)  (pid 28808)
+Compiled jquery_ujs.js  (0ms)  (pid 28808)
+Compiled application.js  (53ms)  (pid 28808)
+Completed 200 OK in 115ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 23:26:34 +0100
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 23:26:34 +0100
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 23:26:34 +0100
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 23:26:34 +0100
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:27:00 +0100
+Processing by TestController#index as HTML
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:27:35 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (25913.6ms)
+Completed 500 Internal Server Error in 25948ms
+
+ActionView::Template::Error (Sorry, that page does not exist):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___766957859089402349_22568440'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:28:08 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (980.4ms)
+Completed 500 Internal Server Error in 983ms
+
+ActionView::Template::Error (Sorry, that page does not exist):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___766957859089402349_22568440'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:29:37 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1935.7ms)
+Completed 500 Internal Server Error in 1938ms
+
+ActionView::Template::Error (Sorry, that page does not exist):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___766957859089402349_22568440'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:30:29 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (909.1ms)
+Completed 500 Internal Server Error in 911ms
+
+ActionView::Template::Error (Sorry, that page does not exist):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___766957859089402349_22568440'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:30:31 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (971.1ms)
+Completed 500 Internal Server Error in 973ms
+
+ActionView::Template::Error (Sorry, that page does not exist):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___766957859089402349_22568440'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:31:30 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (978.9ms)
+Completed 500 Internal Server Error in 1011ms
+
+ActionView::Template::Error (Sorry, that page does not exist):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__1818083520063321434_22173160'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:31:49 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (DDD):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__866865711745317872_24197240'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.6ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:32:57 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (147035.5ms)
+Completed   in 147075ms
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:35:37 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (933.2ms)
+Completed 500 Internal Server Error in 969ms
+
+ActionView::Template::Error (Sorry, that page does not exist):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___2443559766597582323_24491620'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:46:13 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (933.9ms)
+Completed 500 Internal Server Error in 966ms
+
+ActionView::Template::Error (Sorry, that page does not exist):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__2180615058535368715_22824080'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:46:38 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (DDD):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___1933175970991323850_16916700'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (28.4ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:47:00 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (4):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___1775367994332686233_21970800'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (31.5ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (36.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:48:15 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1002.1ms)
+Completed 500 Internal Server Error in 1035ms
+
+ActionView::Template::Error ([#<Twitter::Tweet:0x007fa844705280 @attrs={:created_at=>"Sat Dec 15 22:22:51 +0000 2012", :id=>280075464553414656, :id_str=>"280075464553414656", :text=>"#santacon #nycsantacon http://t.co/bXhAcK9P", :source=>"<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", :truncated=>false, :in_reply_to_status_id=>nil, :in_reply_to_status_id_str=>nil, :in_reply_to_user_id=>nil, :in_reply_to_user_id_str=>nil, :in_reply_to_screen_name=>nil, :user=>{:id=>167526003, :id_str=>"167526003", :name=>"The Junction", :screen_name=>"thejunctionnyc", :location=>"", :description=>"", :url=>nil, :entities=>{:description=>{:urls=>[]}}, :protected=>false, :followers_count=>39, :friends_count=>127, :listed_count=>0, :created_at=>"Fri Jul 16 20:31:16 +0000 2010", :favourites_count=>1, :utc_offset=>-18000, :time_zone=>"Quito", :geo_enabled=>true, :verified=>false, :statuses_count=>401, :lang=>"en", :contributors_enabled=>false, :is_translator=>false, :profile_background_color=>"C0DEED", :profile_background_image_url=>"http://a0.twimg.com/images/themes/theme1/bg.png", :profile_background_image_url_https=>"https://si0.twimg.com/images/themes/theme1/bg.png", :profile_background_tile=>false, :profile_image_url=>"http://a0.twimg.com/profile_images/1404817443/cE82BofJ_normal", :profile_image_url_https=>"https://si0.twimg.com/profile_images/1404817443/cE82BofJ_normal", :profile_link_color=>"0084B4", :profile_sidebar_border_color=>"C0DEED", :profile_sidebar_fill_color=>"DDEEF6", :profile_text_color=>"333333", :profile_use_background_image=>true, :default_profile=>true, :default_profile_image=>false, :following=>nil, :follow_request_sent=>false, :notifications=>nil}, :geo=>nil, :coordinates=>nil, :place=>nil, :contributors=>nil, :retweet_count=>0, :entities=>{:hashtags=>[{:text=>"santacon", :indices=>[0, 9]}, {:text=>"nycsantacon", :indices=>[10, 22]}], :urls=>[], :user_mentions=>[], :media=>[{:id=>280075464557608960, :id_str=>"280075464557608960", :indices=>[23, 43], :media_url=>"http://pbs.twimg.com/media/A-MHJq9CQAA-36N.jpg", :media_url_https=>"https://pbs.twimg.com/media/A-MHJq9CQAA-36N.jpg", :url=>"http://t.co/bXhAcK9P", :display_url=>"pic.twitter.com/bXhAcK9P", :expanded_url=>"http://twitter.com/thejunctionnyc/status/280075464553414656/photo/1", :type=>"photo", :sizes=>{:medium=>{:w=>600, :h=>338, :resize=>"fit"}, :small=>{:w=>340, :h=>192, :resize=>"fit"}, :thumb=>{:w=>150, :h=>150, :resize=>"crop"}, :large=>{:w=>1024, :h=>577, :resize=>"fit"}}}]}, :favorited=>false, :retweeted=>false, :possibly_sensitive=>false}>, #<Twitter::Tweet:0x007fa844705258 @attrs={:created_at=>"Sat Dec 15 02:01:46 +0000 2012", :id=>279768181546049536, :id_str=>"279768181546049536", :text=>"RT @santacon: Twas the night before #Santacon, and all through the city, the Santas prepared to get jolly – not shitty! #nycsantacon", :source=>"web", :truncated=>false, :in_reply_to_status_id=>nil, :in_reply_to_status_id_str=>nil, :in_reply_to_user_id=>nil, :in_reply_to_user_id_str=>nil, :in_reply_to_screen_name=>nil, :user=>{:id=>167526003, :id_str=>"167526003", :name=>"The Junction", :screen_name=>"thejunctionnyc", :location=>"", :description=>"", :url=>nil, :entities=>{:description=>{:urls=>[]}}, :protected=>false, :followers_count=>39, :friends_count=>127, :listed_count=>0, :created_at=>"Fri Jul 16 20:31:16 +0000 2010", :favourites_count=>1, :utc_offset=>-18000, :time_zone=>"Quito", :geo_enabled=>true, :verified=>false, :statuses_count=>401, :lang=>"en", :contributors_enabled=>false, :is_translator=>false, :profile_background_color=>"C0DEED", :profile_background_image_url=>"http://a0.twimg.com/images/themes/theme1/bg.png", :profile_background_image_url_https=>"https://si0.twimg.com/images/themes/theme1/bg.png", :profile_background_tile=>false, :profile_image_url=>"http://a0.twimg.com/profile_images/1404817443/cE82BofJ_normal", :profile_image_url_https=>"https://si0.twimg.com/profile_images/1404817443/cE82BofJ_normal", :profile_link_color=>"0084B4", :profile_sidebar_border_color=>"C0DEED", :profile_sidebar_fill_color=>"DDEEF6", :profile_text_color=>"333333", :profile_use_background_image=>true, :default_profile=>true, :default_profile_image=>false, :following=>nil, :follow_request_sent=>false, :notifications=>nil}, :geo=>nil, :coordinates=>nil, :place=>nil, :contributors=>nil, :retweeted_status=>{:created_at=>"Sat Dec 15 01:56:58 +0000 2012", :id=>279766972655349760, :id_str=>"279766972655349760", :text=>"Twas the night before #Santacon, and all through the city, the Santas prepared to get jolly – not shitty! #nycsantacon", :source=>"<a href=\"http://www.tweetdeck.com\" rel=\"nofollow\">TweetDeck</a>", :truncated=>false, :in_reply_to_status_id=>nil, :in_reply_to_status_id_str=>nil, :in_reply_to_user_id=>nil, :in_reply_to_user_id_str=>nil, :in_reply_to_screen_name=>nil, :user=>{:id=>10728492, :id_str=>"10728492", :name=>"santacon", :screen_name=>"santacon", :location=>"New York Fuckin' City", :description=>"You better watch out.", :url=>"http://nycsantacon.com", :entities=>{:url=>{:urls=>[{:url=>"http://nycsantacon.com", :expanded_url=>nil, :indices=>[0, 22]}]}, :description=>{:urls=>[]}}, :protected=>false, :followers_count=>34091, :friends_count=>0, :listed_count=>174, :created_at=>"Fri Nov 30 03:47:38 +0000 2007", :favourites_count=>0, :utc_offset=>-18000, :time_zone=>"Eastern Time (US & Canada)", :geo_enabled=>false, :verified=>false, :statuses_count=>291, :lang=>"en", :contributors_enabled=>false, :is_translator=>false, :profile_background_color=>"F7D7FF", :profile_background_image_url=>"http://a0.twimg.com/profile_background_images/58559543/santacon_twitter_bg.jpg", :profile_background_image_url_https=>"https://si0.twimg.com/profile_background_images/58559543/santacon_twitter_bg.jpg", :profile_background_tile=>false, :profile_image_url=>"http://a0.twimg.com/profile_images/565169454/santacon_twitter_avatar_bigger_normal.jpg", :profile_image_url_https=>"https://si0.twimg.com/profile_images/565169454/santacon_twitter_avatar_bigger_normal.jpg", :profile_link_color=>"0084B4", :profile_sidebar_border_color=>"C0DEED", :profile_sidebar_fill_color=>"DDEEF6", :profile_text_color=>"333333", :profile_use_background_image=>true, :default_profile=>false, :default_profile_image=>false, :following=>nil, :follow_request_sent=>false, :notifications=>nil}, :geo=>nil, :coordinates=>nil, :place=>nil, :contributors=>nil, :retweet_count=>250, :entities=>{:hashtags=>[{:text=>"Santacon", :indices=>[22, 31]}, {:text=>"nycsantacon", :indices=>[106, 118]}], :urls=>[], :user_mentions=>[]}, :favorited=>false, :retweeted=>false}, :retweet_count=>250, :entities=>{:hashtags=>[{:text=>"Santacon", :indices=>[36, 45]}, {:text=>"nycsantacon", :indices=>[120, 132]}], :urls=>[], :user_mentions=>[{:screen_name=>"santacon", :name=>"santacon", :id=>10728492, :id_str=>"10728492", :indices=>[3, 12]}]}, :favorited=>false, :retweeted=>false}>, #<Twitter::Tweet:0x007fa844705230 @attrs={:created_at=>"Mon Oct 15 19:11:01 +0000 2012", :id=>257921538131652608, :id_str=>"257921538131652608", :text=>"RT @FeIixBaumgarter: I just broke world records and jumped from space, what the fuck have you done with your day?", :source=>"<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", :truncated=>false, :in_reply_to_status_id=>nil, :in_reply_to_status_id_str=>nil, :in_reply_to_user_id=>nil, :in_reply_to_user_id_str=>nil, :in_reply_to_screen_name=>nil, :user=>{:id=>167526003, :id_str=>"167526003", :name=>"The Junction", :screen_name=>"thejunctionnyc", :location=>"", :description=>"", :url=>nil, :entities=>{:description=>{:urls=>[]}}, :protected=>false, :followers_count=>39, :friends_count=>127, :listed_count=>0, :created_at=>"Fri Jul 16 20:31:16 +0000 2010", :favourites_count=>1, :utc_offset=>-18000, :time_zone=>"Quito", :geo_enabled=>true, :verified=>false, :statuses_count=>401, :lang=>"en", :contributors_enabled=>false, :is_translator=>false, :profile_background_color=>"C0DEED", :profile_background_image_url=>"http://a0.twimg.com/images/themes/theme1/bg.png", :profile_background_image_url_https=>"https://si0.twimg.com/images/themes/theme1/bg.png", :profile_background_tile=>false, :profile_image_url=>"http://a0.twimg.com/profile_images/1404817443/cE82BofJ_normal", :profile_image_url_https=>"https://si0.twimg.com/profile_images/1404817443/cE82BofJ_normal", :profile_link_color=>"0084B4", :profile_sidebar_border_color=>"C0DEED", :profile_sidebar_fill_color=>"DDEEF6", :profile_text_color=>"333333", :profile_use_background_image=>true, :default_profile=>true, :default_profile_image=>false, :following=>nil, :follow_request_sent=>false, :notifications=>nil}, :geo=>nil, :coordinates=>nil, :place=>nil, :contributors=>nil, :retweeted_status=>{:created_at=>"Sun Oct 14 19:03:44 +0000 2012", :id=>257557320047927297, :id_str=>"257557320047927297", :text=>"I just broke world records and jumped from space, what the fuck have you done with your day?", :source=>"web", :truncated=>false, :in_reply_to_status_id=>nil, :in_reply_to_status_id_str=>nil, :in_reply_to_user_id=>nil, :in_reply_to_user_id_str=>nil, :in_reply_to_screen_name=>nil, :user=>{:id=>880711434, :id_str=>"880711434", :name=>"Felix Baumgartner", :screen_name=>"FeIixBaumgarter", :location=>"In the sky", :description=>"It's all about adrenaline! Here to inspire you! Parody account. Everything is possible and life is amazing.", :url=>nil, :entities=>{:description=>{:urls=>[]}}, :protected=>false, :followers_count=>3005, :friends_count=>0, :listed_count=>0, :created_at=>"Sun Oct 14 18:34:44 +0000 2012", :favourites_count=>0, :utc_offset=>nil, :time_zone=>nil, :geo_enabled=>false, :verified=>false, :statuses_count=>23, :lang=>"en", :contributors_enabled=>false, :is_translator=>false, :profile_background_color=>"C0DEED", :profile_background_image_url=>"http://a0.twimg.com/images/themes/theme1/bg.png", :profile_background_image_url_https=>"https://si0.twimg.com/images/themes/theme1/bg.png", :profile_background_tile=>false, :profile_image_url=>"http://a0.twimg.com/profile_images/2718134927/cd6e407e83ba1add3e00d842fa1179ef_normal.jpeg", :profile_image_url_https=>"https://si0.twimg.com/profile_images/2718134927/cd6e407e83ba1add3e00d842fa1179ef_normal.jpeg", :profile_link_color=>"0084B4", :profile_sidebar_border_color=>"C0DEED", :profile_sidebar_fill_color=>"DDEEF6", :profile_text_color=>"333333", :profile_use_background_image=>true, :default_profile=>true, :default_profile_image=>false, :following=>nil, :follow_request_sent=>false, :notifications=>nil}, :geo=>nil, :coordinates=>nil, :place=>nil, :contributors=>nil, :retweet_count=>1933, :entities=>{:hashtags=>[], :urls=>[], :user_mentions=>[]}, :favorited=>false, :retweeted=>false}, :retweet_count=>1933, :entities=>{:hashtags=>[], :urls=>[], :user_mentions=>[{:screen_name=>"FeIixBaumgarter", :name=>"Felix Baumgartner", :id=>880711434, :id_str=>"880711434", :indices=>[3, 19]}]}, :favorited=>false, :retweeted=>false}>, #<Twitter::Tweet:0x007fa844705118 @attrs={:created_at=>"Sun Oct 14 03:36:51 +0000 2012", :id=>257324062240546816, :id_str=>"257324062240546816", :text=>"Holy f$%king blinding s%&amp;t. #RAULLLLL", :source=>"<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", :truncated=>false, :in_reply_to_status_id=>nil, :in_reply_to_status_id_str=>nil, :in_reply_to_user_id=>nil, :in_reply_to_user_id_str=>nil, :in_reply_to_screen_name=>nil, :user=>{:id=>167526003, :id_str=>"167526003", :name=>"The Junction", :screen_name=>"thejunctionnyc", :location=>"", :description=>"", :url=>nil, :entities=>{:description=>{:urls=>[]}}, :protected=>false, :followers_count=>39, :friends_count=>127, :listed_count=>0, :created_at=>"Fri Jul 16 20:31:16 +0000 2010", :favourites_count=>1, :utc_offset=>-18000, :time_zone=>"Quito", :geo_enabled=>true, :verified=>false, :statuses_count=>401, :lang=>"en", :contributors_enabled=>false, :is_translator=>false, :profile_background_color=>"C0DEED", :profile_background_image_url=>"http://a0.twimg.com/images/themes/theme1/bg.png", :profile_background_image_url_https=>"https://si0.twimg.com/images/themes/theme1/bg.png", :profile_background_tile=>false, :profile_image_url=>"http://a0.twimg.com/profile_images/1404817443/cE82BofJ_normal", :profile_image_url_https=>"https://si0.twimg.com/profile_images/1404817443/cE82BofJ_normal", :profile_link_color=>"0084B4", :profile_sidebar_border_color=>"C0DEED", :profile_sidebar_fill_color=>"DDEEF6", :profile_text_color=>"333333", :profile_use_background_image=>true, :default_profile=>true, :default_profile_image=>false, :following=>nil, :follow_request_sent=>false, :notifications=>nil}, :geo=>nil, :coordinates=>nil, :place=>nil, :contributors=>nil, :retweet_count=>0, :entities=>{:hashtags=>[{:text=>"RAULLLLL", :indices=>[32, 41]}], :urls=>[], :user_mentions=>[]}, :favorited=>false, :retweeted=>false}>]):
+    1: <%= bigos_twitter_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__1341294060266529498_21062760'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-21 23:48:34 +0100
+Connecting to database specified by database.yml
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_twitter_box/app/views/bigos_twitter_box/module/_post.html.erb (1.0ms)
+  Rendered /home/kaptur/rails-workspace/bigos_twitter_box/app/views/bigos_twitter_box/module/_post.html.erb (0.2ms)
+  Rendered /home/kaptur/rails-workspace/bigos_twitter_box/app/views/bigos_twitter_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_twitter_box/app/views/bigos_twitter_box/module/_post.html.erb (0.2ms)
+  Rendered /home/kaptur/rails-workspace/bigos_twitter_box/app/views/bigos_twitter_box/module/_widget.html.erb (6.7ms)
+  Rendered test/index.html.erb within layouts/application (1032.6ms)
+Completed 200 OK in 1077ms (Views: 1076.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 23:48:36 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 23:48:36 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 23:48:36 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 23:48:36 +0100
+Served asset /application.js - 304 Not Modified (6ms)
