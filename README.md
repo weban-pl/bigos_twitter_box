@@ -6,7 +6,7 @@ Widget to get twitter posts.
 BigosTwitterBox works with Rails 3.1 onwards. You can add it to your Gemfile with:
 
 ```ruby
-gem "bigos_twitter_box", :git=>"git://github.com/kremenso/bigos_twitter_box.git"
+gem "bigos_twitter_box", :git=>"git://github.com/weban/bigos_twitter_box.git"
 ```
 Gems "jquery-rails" and "bigos_settings" are required
 
