@@ -10,10 +10,11 @@ module BigosTwitterBox
 
       def create_settings
 
-        Setting["#{BigosTwitterBox.name}.consumer_key"] = "YOUR CONSUMER KEY"
-        Setting["#{BigosTwitterBox.name}.consumer_secret"] = "YOUR CONSUMER SECRET"
-        Setting["#{BigosTwitterBox.name}.oauth_token"] = "YOUR OAUTH TOKEN"
-        Setting["#{BigosTwitterBox.name}.oauth_token_secret"] = "YOUR OAUTH TOKEN SECRET"
+        Setting["GS.twitter_consumer_key"] = "YOUR CONSUMER KEY" if Setting.find_by_var("GS.twitter_consumer_key").blank?
+        Setting["GS.twitter_consumer_secret"] = "YOUR CONSUMER SECRET" if Setting.find_by_var("GS.twitter_consumer_secret").blank?
+        Setting["GS.twitter_oauth_token"] = "YOUR OAUTH TOKEN" if Setting.find_by_var("GS.twitter_oauth_token").blank?
+        Setting["GS.twitter_oauth_token_secret"] = "YOUR OAUTH TOKEN SECRET" if Setting.find_by_var("GS.twitter_oauth_token_secret").blank?
+
         Setting["#{BigosTwitterBox.name}.twitter_login"] = "TWITTER LOGIN"
         Setting["#{BigosTwitterBox.name}.twitter_posts"] = 3
         im = BigosApp::InstalledModule.find_or_create_by_name(BigosTwitterBox.name)
